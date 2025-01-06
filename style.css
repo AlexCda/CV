@@ -1,57 +1,69 @@
-.education {
-    list-style: none;
+/* Styles généraux */
+body {
+    color: #494e5f;
 }
-.img{
-    max-width: 15rem;
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
+
+h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+/* Styles de la partie gauche */
 .partieGauche {
     background-color: #494e5f;
     color: white;
     padding: 1rem;
 }
-h1, .partieGauche h2 {
-    color: #ffe7d4;
 
+.partieGauche h1,
+.partieGauche h2 {
+    color: #ffe7d4;
 }
-a {
-    text-decoration: none;
-    color: inherit;
+
+.img {
+    max-width: 15rem;
 }
+
+/* Styles de la partie droite */
 .partieDroite h2 {
     background-color: #ffe7d4;
-    text-transform: uppercase;
-    font-size: 150%;
     padding: 0.5rem;
 }
-.partieGauche h2 {
-    text-transform: uppercase;
-    font-size: 150%;
 
+.education {
+    list-style: none;
 }
+
+.strongColor {
+    color: #494e5f;
+}
+
+/* Styles pour les barres de progression */
 .langage {
     color: white;
     border-radius: 15px;
     width: 100%;
 }
-  
+
 .progressbar {
     background-color: #ffe7d4;
     color: #494e5f;
     padding: 0.1rem;
-    margin-top:0.3rem;
+    margin-top: 0.3rem;
     text-align: left;
     font-size: 15px;
     border-radius: 15px;
 }
-h2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .deroule {
+
+/* Style pour l'icône de déroulement */
+.deroule {
     margin-left: auto;
-  }
-.strongColor{
-    color: #494e5f;
 }
